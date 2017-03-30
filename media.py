@@ -1,6 +1,10 @@
 import webbrowser
 
-class Movie():
+
+class Movie:
+    """This class defines a movie object that contains the title of the movie, 
+    the storyline of the movie, the lin to the movie poster, and the link to the movies trailer"""
+
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline

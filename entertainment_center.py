@@ -19,5 +19,10 @@ apollo13 = media.Movie("Apollo 13",
 
 movies = [toystory,avatar,apollo13]
 
-fresh_tomatoes.open_movies_page(movies)
+# fresh_tomatoes.open_movies_page(movies)
+print(media.Movie.__doc__)
+print(media.Movie.__module__ + " is the module that the " + media.Movie.__name__ + " class exists in")
+
+
+
 
